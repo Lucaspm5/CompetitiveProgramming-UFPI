@@ -1,5 +1,7 @@
 #include <bits/stdc++.h>
 
+using namespace std;
+
 typedef struct{
     char nome[50];
     double dificuldade;
