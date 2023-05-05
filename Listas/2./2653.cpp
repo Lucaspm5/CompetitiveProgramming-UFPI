@@ -1,13 +1,19 @@
-#include <iostream>
-#include <set>
-#include <string>
+#include <bits/stdc++.h>
 
-int main() {
-    std::set<std::string> jewels;
-    std::string jewel;
-    while (std::getline(std::cin, jewel)) {
-        jewels.insert(jewel);
+using namespace std;
+
+int main()
+{
+    set<string> aux;
+
+    string s;
+
+    while(cin >> s)
+    {
+        aux.insert(s);
     }
-    std::cout << jewels.size() << std::endl;
+
+    cout << aux.size() << endl;
+
     return 0;
 }
